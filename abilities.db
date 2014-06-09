@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<ability id="1">
+		<name>Stench</name>
+		<effectText>The stench may cause the target to flinch.</effectText>
+		<effect>Stench has a 10% chance of flinching the opponent when hit by a damaging move.</effect>
+	</ability>
+	<ability id="2">
+		<name>Drizzle</name>
+		<effectText>The Pokemon makes it rain if it appears in battle.</effectText>
+		<effect>Increases the power of Water-type moves by 50%.  Decreases the power of Fire-type moves by 50%.</effect>
+	</ability>
+	<ability id="3">
+		<name>Speed Boost</name>
+		<effectText>The Pokemon's Speed stat is gradually boosted.</effectText>
+		<effect>Speed Boost raises the user's Speed stat by one stage, at the end of each turn in battle.</effect>
+	</ability>
+	<ability id="4">
+		<name>Battle Armor</name>
+		<effectText>The Pokemon is protected against critical hits.</effectText>
+		<effect>Battle Armor prevents the opponent from landing a critical hit.</effect>
+	</ability>
+	<ability id="5">
+		<name>Sturdy</name>
+		<effectText>The Pokemon is protected against 1-hit KO attacks.</effectText>
+		<effect>Sturdy negates 1-hit KO attacks and damage.</effect>
+	</ability>
+	<ability id="6">
+		<name>Damp</name>
+		<effectText>Prevents combatants from self destructing.</effectText>
+		<effect>Damp prevents self-destruction and the use of moves such as Self-Destruct and Explosion.</effect>
+	</ability>
+	<ability id="7">
+		<name>Limber</name>
+		<effectText>The Pokemon is protected from paralysis.</effectText>
+		<effect>Limber prevents paralysis.</effect>
+	</ability>
+	<ability id="8">
+		<name>Sand Veil</name>
+		<effectText>Boosts the Pokemon's evasion in a sandstorm.</effectText>
+		<effect>Sand Veil increases the evasion of a Pokemon by 20% in a sandstorm and if on a Pokemon whose type does not already, grants immunity to damage taken from sandstorms.</effect>
+	</ability>
+	<ability id="9">
+		<name>Static</name>
+		<effectText>Contact with the Pokemon may cause paralysis.</effectText>
+		<effect>When Pokemon with this Ability are hit by a move that makes contact, there is a 30% chance that the attacking foe will become paralyzed. This can affect Ground-type Pokemon.</effect>
+	</ability>
+	<ability id="10">
+		<name>Volt Absorb</name>
+		<effectText>Restores HP if hit by an Electric-type move.</effectText>
+		<effect>When a Pokemon with Volt Absorb is hit by an Electric-type move, its HP is restored by one quarter of its maximum HP, and the move will have no effect.</effect>
+	</ability>
+	<ability id="11">
+		<name>Water Absorb</name>
+		<effectText>Restores HP if hit by a Water-type move.</effectText>
+		<effect>Water Absorb heals one quarter of the user's maximum HP when hit with a Water-type attack.</effect>
+	</ability>
+	<ability id="12">
+		<name>Oblivious</name>
+		<effectText>Prevents the Pokemon from becoming infatuated.</effectText>
+		<effect>A Pokemon with Oblivious is immune to infatuation and effects that only work on opposite gendered Pokemon; specifically Cute Charm, Attract, Captivate, and the Destiny Knot, as well as Taunt</effect>
+	</ability>
+	<ability id="13">
+		<name>Cloud Nine</name>
+		<effectText>Eliminates the effects of weather.</effectText>
+		<effect>When a Pokemon with Cloud Nine is in battle, all effects of weather are eliminated.</effect>
+	</ability>
+	<ability id="14">
+		<name>Compound Eyes</name>
+		<effectText>The Pokemon's accuracy is boosted.</effectText>
+		<effect>Compound Eyes raises accuracy by 30% of a move's original accuracy in battles.</effect>
+	</ability>
+	<ability id="15">
+		<name>Insomnia</name>
+		<effectText>Prevents the Pokemon from falling asleep.</effectText>
+		<effect>Insomnia prevents sleep by either the opponent or themselves.</effect>
+	</ability>
+	<ability id="16">
+		<name>Color Change</name>
+		<effectText>Changes the Pokemon's type to the foe's move.</effectText>
+		<effect>After being hit by a damage-dealing move, a Pokemon with Color Change will change its type so that it is the same as that of the move that harmed it.</effect>
+	</ability>
+	<ability id="17">
+		<name>Immunity</name>
+		<effectText>Prevents the Pokemon from getting poisoned.</effectText>
+		<effect>Immunity prevents poisoning.</effect>
+	</ability>
+	<ability id="18">
+		<name>Flash Fire</name>
+		<effectText>Powers up Fire-type moves if hit by a fire move.</effectText>
+		<effect>Flash Fire makes the user immune to Fire-type moves and will activate when hit by one. When activated, the power of the user's Fire-type moves is increased by 1.5x.</effect>
+	</ability>
+	<ability id="19">
+		<name>Shield Dust</name>
+		<effectText>Blocks the added effects of attacks taken.</effectText>
+		<effect>When the Pokemon is damaged by an attack, any additional effects are negated.</effect>
+	</ability>
+	<ability id="20">
+		<name>Own Tempo</name>
+		<effectText>Prevents the Pokemon from becoming confused.</effectText>
+		<effect>Own Tempo prevents confusion, even if it is self-inflicted (such as from Thrash or a Berry).</effect>
+	</ability>
+	<ability id="21">
+		<name>Suction Cups</name>
+		<effectText>Negates moves that force switching out.</effectText>
+		<effect>This Ability prevents the opponent from forcing a switch.</effect>
+	</ability>
+	<ability id="22">
+		<name>Intimidate</name>
+		<effectText>Lowers the foe's Attack stat.</effectText>
+		<effect>Intimidate lowers the opponent's Attack stat by one stage upon entering the battle.</effect>
+	</ability>
+	<ability id="23">
+		<name>Shadow Tag</name>
+		<effectText>Prevents the foe from escaping.</effectText>
+		<effect>Shadow Tag prevents all foes from fleeing or switching out as long as the user remains in battle.</effect>
+	</ability>
+	<ability id="24">
+		<name>Rough Skin</name>
+		<effectText>Inflicts damage to the foe on contact.</effectText>
+		<effect>When a Pokemon with Rough Skin is hit with a move that makes contact, the attacker loses 1/8 of its own maximum HP, after all turn-based damage is dealt.</effect>
+	</ability>
+	<ability id="25">
+		<name>Wonder Guard</name>
+		<effectText>Only super effective moves will hit.</effectText>
+		<effect>Wonder Guard makes the user immune to direct damage moves that are not super effective.</effect>
+	</ability>
+	<ability id="26">
+		<name>Levitate</name>
+		<effectText>Gives full immunity to all Ground-type moves.</effectText>
+		<effect>Levitate renders the user immune to Ground-type moves (except Sand Attack), Spikes, Toxic Spikes, Misty Terrain, Grassy Terrain, Electric Terrain, Arena Trap, and damage from Sky Drop.</effect>
+	</ability>
+	<ability id="27">
+		<name>Effect Spore</name>
+		<effectText>Contact may paralyze, poison, or cause sleep.</effectText>
+		<effect>Effect Spore has a 30% chance of inducing either paralysis, sleep or poison on the opponent when hit with a move that makes contact.</effect>
+	</ability>
+	<ability id="28">
+		<name>Synchronize</name>
+		<effectText>Passes on a burn, poison, or paralysis to the foe.</effectText>
+		<effect>When a Pokemon with Synchronize is burned, paralyzed, or poisoned by an opponent, that opponent will be inflicted with the same status condition.</effect>
+	</ability>
+	<ability id="29">
+		<name>Clear Body</name>
+		<effectText>Prevents the Pokemon's stats from being lowered.</effectText>
+		<effect>Clear Body prevents stat reduction caused by another Pokemon's move or Ability but not stat increases.</effect>
+	</ability>
+	<ability id="30">
+		<name>Natural Cure</name>
+		<effectText>All status problems are healed upon switching out.</effectText>
+		<effect>Natural Cure heals any status conditions upon switching out.</effect>
+	</ability>
+	<ability id="31">
+		<name>Lightning Rod</name>
+		<effectText>The Pokemon draws in all Electric-type moves.</effectText>
+		<effect>Lightning Rod forces all single-target Electric-type attacks and Thunder Wave to strike the Pokemon with this Ability in Double Battles, including those used by allies.</effect>
+	</ability>
+	<ability id="32">
+		<name>Serene Grace</name>
+		<effectText>Boosts the likelihood of added effects appearing.</effectText>
+		<effect>Serene Grace will double the chance of a move having an additional effect.</effect>
+	</ability>
+	<ability id="33">
+		<name>Swift Swim</name>
+		<effectText>Boosts the Pokemon's Speed in rain.</effectText>
+		<effect>Swift Swim doubles the user's Speed stat in rain.</effect>
+	</ability>
+	<ability id="34">
+		<name>Chlorophyll</name>
+		<effectText>Boosts the Pokemon's Speed in sunshine.</effectText>
+		<effect>During sunny weather, the Speed stat of Pokemon with this Ability doubles.</effect>
+	</ability>
+	<ability id="35">
+		<name>Illuminate</name>
+		<effectText>Raises the likelihood of meeting wild Pokemon.</effectText>
+		<effect>Raises the likelihood of meeting wild Pokemon.</effect>
+	</ability>
+	<ability id="36">
+		<name>Trace</name>
+		<effectText>The Pokemon copies a foe's Ability.</effectText>
+		<effect>Trace copies the Ability of the current opponent.</effect>
+	</ability>
+	<ability id="37">
+		<name>Huge Power</name>
+		<effectText>Raises the Pokemon's Attack stat.</effectText>
+		<effect>Huge Power doubles the user's Attack stat.</effect>
+	</ability>
+	<ability id="38">
+		<name>Poison Point</name>
+		<effectText>Contact with the Pokemon may poison the foe.</effectText>
+		<effect>When a Pokemon with Poison Point is hit by a move that makes contact, there is a 30% chance that the attacking foe will become poisoned.</effect>
+	</ability>
+	<ability id="39">
+		<name>Inner Focus</name>
+		<effectText>The Pokemon is protected from flinching.</effectText>
+		<effect>Inner Focus prevents flinching.</effect>
+	</ability>
+	<ability id="40">
+		<name>Magma Armor</name>
+		<effectText>Prevents the Pokemon from becoming frozen.</effectText>
+		<effect>Magma Armor prevents freezing.</effect>
+	</ability>
+	<ability id="41">
+		<name>Water Veil</name>
+		<effectText>Prevents the Pokemon from getting a burn.</effectText>
+		<effect>Water Veil prevents burns.</effect>
+	</ability>
+	<ability id="42">
+		<name>Magnet Pull</name>
+		<effectText>Prevents Steel-type Pokemon from escaping.</effectText>
+		<effect>Magnet Pull traps Steel-type Pokemon, making them unable to leave battle except by holding a Shed Shell, using Baton Pass, U-turn, Volt Switch, or Parting Shot.</effect>
+	</ability>
+	<ability id="43">
+		<name>Soundproof</name>
+		<effectText>Gives full immunity to all sound-based moves.</effectText>
+		<effect>Soundproof prevents all effect from sound moves, granting the user immunity from them.</effect>
+	</ability>
+	<ability id="44">
+		<name>Rain Dish</name>
+		<effectText>The Pokemon gradually recovers HP in rain.</effectText>
+		<effect>Rain Dish recovers 1/16 of the user's maximum HP at the end of each turn when it is raining.</effect>
+	</ability>
+	<ability id="45">
+		<name>Sand Stream</name>
+		<effectText>The Pokemon summons a sandstorm in battle.</effectText>
+		<effect>Sand Stream summons a sandstorm in battle as soon as a Pokemon with Sand Stream enters the battle.  The sandstorm lasts for 5 turns.</effect>
+	</ability>
+	<ability id="46">
+		<name>Pressure</name>
+		<effectText>The Pokemon raises the foe's PP usage.</effectText>
+		<effect>When a Pokemon with Pressure is targeted by a foe's move, one additional PP is deducted upon execution.</effect>
+	</ability>
+	<ability id="47">
+		<name>Thick Fat</name>
+		<effectText>Raises resistance to Fire- and Ice-type moves.</effectText>
+		<effect>Thick Fat gives the user heat and cold protection, therefore halving the damage taken from Ice-type and Fire-type moves.</effect>
+	</ability>
+	<ability id="48">
+		<name>Early Bird</name>
+		<effectText>The Pokemon awakens quickly from sleep.</effectText>
+		<effect>Early Bird causes the Pokemon to wake up in half the time.</effect>
+	</ability>
+	<ability id="49">
+		<name>Flame Body</name>
+		<effectText>Contact with the Pokemon may burn the foe.</effectText>
+		<effect>When a Pokemon with Flame Body is hit by a move that makes contact, there is a 30% chance that the attacking foe will become burned.</effect>
+	</ability>
+	<ability id="50">
+		<name>Run Away</name>
+		<effectText>Enables sure getaway from wild Pokemon.</effectText>
+		<effect>Run Away guarantees escape from a wild Pokemon, negating any trapping move or Ability an opponent has in effect.</effect>
+	</ability>
+	<ability id="51">
+		<name>Keen Eye</name>
+		<effectText>Prevents the Pokemon from losing accuracy.</effectText>
+		<effect>Keen Eye prevents loss of accuracy.</effect>
+	</ability>
+	<ability id="52">
+		<name>Hyper Cutter</name>
+		<effectText>Prevents the Attack stat from being lowered.</effectText>
+		<effect>Hyper Cutter prevents the Attack stat from being reduced.</effect>
+	</ability>
+	<ability id="53">
+		<name>Pickup</name>
+		<effectText>The Pokemon may pick up items.</effectText>
+		<effect>Pickup has no effect during battle.</effect>
+	</ability>
+	<ability id="54">
+		<name>Truant</name>
+		<effectText>The Pokemon can't attack on consecutive turns.</effectText>
+		<effect>Truant causes the user to only move every other turn.</effect>
+	</ability>
+	<ability id="55">
+		<name>Hustle</name>
+		<effectText>Boosts the Attack stat, but lowers accuracy.</effectText>
+		<effect>Hustle increases the user's Attack stat by 50%, but lowers the accuracy of the user's physical moves by 20%.</effect>
+	</ability>
+	<ability id="56">
+		<name>Cute Charm</name>
+		<effectText>Contact with the Pokemon may cause infatuation.</effectText>
+		<effect>When a Pokemon with Cute Charm is hit by a move that makes contact, there is a 30% chance that the opponent of the opposite gender will become infatuated, making it unable to attack 50% of the time.</effect>
+	</ability>
+	<ability id="57">
+		<name>Plus</name>
+		<effectText>Boosts Sp. Atk if another Pokemon has Minus.</effectText>
+		<effect>Plus raises the user's Special Attack stat by 50% when it enters a Double or Triple Battle and has an ally that has Plus or Minus.</effect>
+	</ability>
+	<ability id="58">
+		<name>Minus</name>
+		<effectText>Boosts Sp. Atk if another Pokemon has Plus.</effectText>
+		<effect>Minus raises the user's Special Attack stat by 50% when it enters a Double or Triple Battle with a Pokemon that has Plus or Minus.</effect>
+	</ability>
+	<ability id="59">
+		<name>Forecast</name>
+		<effectText>Transforms with the weather.</effectText>
+		<effect>During weather conditions, Forecast will change the type of a Castform with this Ability.</effect>
+	</ability>
+	<ability id="60">
+		<name>Sticky Hold</name>
+		<effectText>Protects the Pokemon from item theft.</effectText>
+		<effect>This Ability prevents the user's held item from being taken by Covet or Thief, traded by Trick or Switcheroo, eaten by Bug Bite or Pluck, or removed by Knock Off.</effect>
+	</ability>
+	<ability id="61">
+		<name>Shed Skin</name>
+		<effectText>The Pokemon may heal its own status problems.</effectText>
+		<effect>There is a 33% chance at the end of each turn that Shed Skin will cure the user of a non-volatile status ailment.</effect>
+	</ability>
+	<ability id="62">
+		<name>Guts</name>
+		<effectText>Boosts Attack if there is a status problem.</effectText>
+		<effect>Guts raises the Attack stat by 50% while affected by the burn, paralysis, poison, or sleep status conditions.</effect>
+	</ability>
+	<ability id="63">
+		<name>Marvel Scale</name>
+		<effectText>Boosts Defense if there is a status problem.</effectText>
+		<effect>Marvel Scale raises the Defense stat by 50% if the Pokemon with this Ability is suffering from a status condition.</effect>
+	</ability>
+	<ability id="64">
+		<name>Liquid Ooze</name>
+		<effectText>Inflicts damage on foes using any draining move.</effectText>
+		<effect>Liquid Ooze causes HP-draining moves to cause injury. Deals damage equal to the amount of HP that would have been recovered.</effect>
+	</ability>
+	<ability id="65">
+		<name>Overgrow</name>
+		<effectText>Powers up Grass-type moves in a pinch.</effectText>
+		<effect>When a Pokemon with Overgrow uses a Grass-type move, the power will increase by 1.5x if the user has less than or equal to ? of its maximum HP remaining.</effect>
+	</ability>
+	<ability id="66">
+		<name>Blaze</name>
+		<effectText>Powers up Fire-type moves in a pinch.</effectText>
+		<effect>When a Pokemon with Blaze uses a Fire-type move, the power will increase by 1.5x if the user has less than or equal to ? of its maximum HP remaining.</effect>
+	</ability>
+	<ability id="67">
+		<name>Torrent</name>
+		<effectText>Powers up Water-type moves in a pinch.</effectText>
+		<effect>When a Pokemon with Torrent uses a Water-type move, the power will increase by 1.5x if the user has less than or equal to ? of its maximum HP remaining.</effect>
+	</ability>
+	<ability id="68">
+		<name>Swarm</name>
+		<effectText>Powers up Bug-type moves in a pinch.</effectText>
+		<effect>When a Pokemon with Swarm uses a Bug-type move, the power will increase by 1.5x if the user has less than or equal to ? of its maximum HP remaining.</effect>
+	</ability>
+	<ability id="69">
+		<name>Rock Head</name>
+		<effectText>Protects the Pokemon from recoil damage.</effectText>
+		<effect>Rock Head prevents recoil damage from moves.</effect>
+	</ability>
+	<ability id="70">
+		<name>Drought</name>
+		<effectText>The Pokemon makes it sunny if it is in battle.</effectText>
+		<effect>Drought summons sunlight in battle as soon as a Pokemon with Drought enters the battle. The sunlight lasts for 5 turns.</effect>
+	</ability>
+	<ability id="71">
+		<name>Arena Trap</name>
+		<effectText>Prevents the foe from fleeing.</effectText>
+		<effect>Arena Trap prevents all foes from fleeing or switching out as long as the user remains in battle.</effect>
+	</ability>
+	<ability id="72">
+		<name>Vital Spirit</name>
+		<effectText>Prevents the Pokemon from falling asleep.</effectText>
+		<effect>Vital Spirit prevents sleep.</effect>
+	</ability>
+	<ability id="73">
+		<name>White Smoke</name>
+		<effectText>Prevents the Pokemon's stats from being lowered.</effectText>
+		<effect>White Smoke prevents stat reduction.</effect>
+	</ability>
+	<ability id="74">
+		<name>Pure Power</name>
+		<effectText>Boosts the power of physical attacks.</effectText>
+		<effect>Pure Power doubles the user's Attack stat.</effect>
+	</ability>
+	<ability id="75">
+		<name>Shell Armor</name>
+		<effectText>The Pokemon is protected against critical hits.</effectText>
+		<effect>Shell Armor prevents Pokemon from receiving a critical hit.</effect>
+	</ability>
+	<ability id="76">
+		<name>Air Lock</name>
+		<effectText>Eliminates the effects of weather.</effectText>
+		<effect>When a Pokemon with Air Lock is in battle, all effects of weather are eliminated.</effect>
+	</ability>
+	<ability id="77">
+		<name>Tangled Feet</name>
+		<effectText>Raises evasion if the Pokemon is confused.</effectText>
+		<effect>Tangled Feet causes evasion to increase by 20% when the Pokemon is confused.</effect>
+	</ability>
+	<ability id="78">
+		<name>Motor Drive</name>
+		<effectText>Raises Speed if hit by an Electric-type move.</effectText>
+		<effect>When a Pokemon with Motor Drive is hit by an Electric-type move, its Speed is increased by one stage, and the move will have no effect.</effect>
+	</ability>
+	<ability id="79">
+		<name>Rivalry</name>
+		<effectText>Raises Attack if the foe is of the same gender.</effectText>
+		<effect>Rivalry raises the base power of a move by 25% if the foe and the user have the same gender, but reduces base power by 25% if the foe and the user have opposite genders.</effect>
+	</ability>
+	<ability id="80">
+		<name>Steadfast</name>
+		<effectText>Raises Speed each time the Pokemon flinches.</effectText>
+		<effect>Steadfast increases the user's Speed stat by one stage when flinched.</effect>
+	</ability>
+	<ability id="81">
+		<name>Snow Cloak</name>
+		<effectText>Raises evasion in a hailstorm.</effectText>
+		<effect>Snow Cloak causes evasion to increase by 20% in a hailstorm and grants immunity to hail.</effect>
+	</ability>
+	<ability id="82">
+		<name>Gluttony</name>
+		<effectText>Encourages the early use of a held Berry.</effectText>
+		<effect>Gluttony causes the Pokemon to eat Berries that would normally be eaten at 25% HP or lower at 50% HP or lower instead.</effect>
+	</ability>
+	<ability id="83">
+		<name>Anger Point</name>
+		<effectText>Raises Attack upon taking a critical hit.</effectText>
+		<effect>Anger Point maximizes the Attack stat of Pokemon with this Ability when they are hit by a critical hit.</effect>
+	</ability>
+	<ability id="84">
+		<name>Unburden</name>
+		<effectText>Raises Speed if a held item is used.</effectText>
+		<effect>Unburden doubles the Pokemon's Speed stat when the Pokemon's held item is lost.</effect>
+	</ability>
+	<ability id="85">
+		<name>Heatproof</name>
+		<effectText>Weakens the power of Fire-type moves.</effectText>
+		<effect>Heatproof halves the damage done by Fire-type attacks and the burn status ailment.</effect>
+	</ability>
+	<ability id="86">
+		<name>Simple</name>
+		<effectText>The Pokemon is prone to wild stat changes.</effectText>
+		<effect>Simple doubles the number of stages a stat change increases.</effect>
+	</ability>
+	<ability id="87">
+		<name>Dry Skin</name>
+		<effectText>Reduces HP if it is hot. Water restores HP.</effectText>
+		<effect>During sunshine, lose 1/8th maximum HP per turn. During rain, gain 1/8th maximum HP per turn. Fire-type attacks do 25% more damage to the pokemon and Water-type moves have no effect and heal 1/4th their maximum HP instead.</effect>
+	</ability>
+	<ability id="88">
+		<name>Download</name>
+		<effectText>Adjusts power according to the foe's lowest defensive stat.</effectText>
+		<effect>Download raises either the Attack stat or Special Attack stat by one stage depending on the foe's lowest current defensive stat.</effect>
+	</ability>
+	<ability id="89">
+		<name>Iron Fist</name>
+		<effectText>Boosts the power of punching moves.</effectText>
+		<effect>Iron Fist causes the Base Power of affected punching moves to increase by 20%.</effect>
+	</ability>
+	<ability id="90">
+		<name>Poison Heal</name>
+		<effectText>Restores HP if the Pokemon is poisoned.</effectText>
+		<effect>If the Pokemon is poisoned or badly poisoned, it will gain 1/8 of its maximum HP at the end of each turn instead of taking damage.</effect>
+	</ability>
+	<ability id="91">
+		<name>Adaptability</name>
+		<effectText>Powers up moves of the same type.</effectText>
+		<effect>Adaptability increases STAB from 1.5x to 2x.</effect>
+	</ability>
+	<ability id="92">
+		<name>Skill Link</name>
+		<effectText>Increases the frequency of multi-strike moves.</effectText>
+		<effect>Multi-strike moves that hit 2-5 times per use always strike five times.</effect>
+	</ability>
+	<ability id="93">
+		<name>Hydration</name>
+		<effectText>Heals status problems if it is raining.</effectText>
+		<effect>Hydration cures any status condition that a Pokemon with this Ability has after each turn when it is raining.</effect>
+	</ability>
+	<ability id="94">
+		<name>Solar Power</name>
+		<effectText>Boosts Sp. Atk, but lowers HP in sunshine.</effectText>
+		<effect>In sunshine, Solar Power raises the Special Attack stat 1.5x, but lowers the user's HP by 1/8 of its maximum HP at the end of each turn.</effect>
+	</ability>
+	<ability id="95">
+		<name>Quick Feet</name>
+		<effectText>Boosts Speed if there is a status problem.</effectText>
+		<effect>Quick Feet increases the user's Speed stat by 50% when the user is inflicted with a status condition.</effect>
+	</ability>
+	<ability id="96">
+		<name>Normalize</name>
+		<effectText>All the Pokemon's moves become the Normal type.</effectText>
+		<effect>Normalize makes all moves used by the Pokemon with this Ability act as though they were Normal instead of their usual type.</effect>
+	</ability>
+	<ability id="97">
+		<name>Sniper</name>
+		<effectText>Powers up moves if they become critical hits.</effectText>
+		<effect>Critical hits will do 2.25x the damage instead of 1.5x.</effect>
+	</ability>
+	<ability id="98">
+		<name>Magic Guard</name>
+		<effectText>The Pokemon only takes damage from attacks.</effectText>
+		<effect>Magic Guard prevents indirect damage.</effect>
+	</ability>
+	<ability id="99">
+		<name>No Guard</name>
+		<effectText>Ensures the Pokemon and its foe's attacks land.</effectText>
+		<effect>All moves used by or against a Pokemon with this Ability cannot miss.</effect>
+	</ability>
+	<ability id="100">
+		<name>Stall</name>
+		<effectText>The Pokemon moves after even slower foes.</effectText>
+		<effect>Stall causes a Pokemon with this Ability to move last within its priority bracket.</effect>
+	</ability>
+	<ability id="101">
+		<name>Technician</name>
+		<effectText>Powers up the Pokemon's weaker moves.</effectText>
+		<effect>Technician increases the base power of all moves which have a base power of 60 or less by 1.5x.</effect>
+	</ability>
+	<ability id="102">
+		<name>Leaf Guard</name>
+		<effectText>Prevents status problems in sunny weather.</effectText>
+		<effect>Leaf Guard prevents non-volatile status problems in sunny weather.</effect>
+	</ability>
+	<ability id="103">
+		<name>Klutz</name>
+		<effectText>The Pokemon can't use any held items.</effectText>
+		<effect>The Pokemon can't use any held items.</effect>
+	</ability>
+	<ability id="104">
+		<name>Mold Breaker</name>
+		<effectText>Moves can be used regardless of Abilities.</effectText>
+		<effect>Mold Breaker ignores the effects of Abilities that could potentially weaken or negate moves.</effect>
+	</ability>
+	<ability id="105">
+		<name>Super Luck</name>
+		<effectText>Heightens the critical-hit ratios of moves.</effectText>
+		<effect>Super Luck increases the critical hit ratio by 1 stage.</effect>
+	</ability>
+	<ability id="106">
+		<name>Aftermath</name>
+		<effectText>Damages the foe landing the finishing hit.</effectText>
+		<effect>When a Pokemon with this Ability faints by damage from a move that makes contact, the attacker will lose 1/4th of its maximum HP.</effect>
+	</ability>
+	<ability id="107">
+		<name>Anticipation</name>
+		<effectText>Senses the foe's dangerous moves.</effectText>
+		<effect>Anticipation causes the Pokemon to</effect>
+	</ability>
+	<ability id="108">
+		<name>Forewarn</name>
+		<effectText>Determines what moves the foe has.</effectText>
+		<effect>Forewarn shows the opponent's move with the highest base power.</effect>
+	</ability>
+	<ability id="109">
+		<name>Unaware</name>
+		<effectText>Ignores any change in stats by the foe.</effectText>
+		<effect>Unaware ignores other Pokemon's positive and negative stat changes when calculating damage involving a Pokemon with this Ability.</effect>
+	</ability>
+	<ability id="110">
+		<name>Tinted Lens</name>
+		<effectText>Powers up "not very effective" moves.</effectText>
+		<effect>Tinted Lens doubles the power of any moves that the Pokemon uses that are</effect>
+	</ability>
+	<ability id="111">
+		<name>Filter</name>
+		<effectText>Powers down super-effective moves.</effectText>
+		<effect>Filter reduces super effective damage by 1/4th. A move that would deal 2x damage will instead deal 1.5x damage, and a move that would deal 4x will instead deal 3x.</effect>
+	</ability>
+	<ability id="112">
+		<name>Slow Start</name>
+		<effectText>Temporarily halves Attack and Speed.</effectText>
+		<effect>Slow Start causes the Attack stat and Speed stat to be halved during the first five turns in battle.</effect>
+	</ability>
+	<ability id="113">
+		<name>Scrappy</name>
+		<effectText>Enables moves to hit Ghost-type foes.</effectText>
+		<effect>Scrappy causes Ghost-type Pokemon to be hit by damage-dealing Normal- and Fighting-type moves inflicted by the user.</effect>
+	</ability>
+	<ability id="114">
+		<name>Storm Drain</name>
+		<effectText>The Pokemon draws in all Water-type moves.</effectText>
+		<effect>Storm Drain forces all single-target Water-type attacks to strike the Pokemon with this ability and also gives the Pokemon immunity to all Water-type attacks and raises the Pokemon's Special Attack by one stage whenever they are hit by one.</effect>
+	</ability>
+	<ability id="115">
+		<name>Ice Body</name>
+		<effectText>The Pokemon regains HP in a hailstorm.</effectText>
+		<effect>Ice Body causes a Pokemon to recover 1/16th of its maximum HP at the end of every turn when it is hailing.</effect>
+	</ability>
+	<ability id="116">
+		<name>Solid Rock</name>
+		<effectText>Powers down super-effective moves.</effectText>
+		<effect>Solid Rock reduces super effective damage by 1/4th. A move that would deal 2x damage will instead deal 1.5x damage, and a move that would deal 4x will instead deal 3x.</effect>
+	</ability>
+	<ability id="117">
+		<name>Snow Warning</name>
+		<effectText>The Pokemon summons a hailstorm in battle.</effectText>
+		<effect>Snow Warning summons a hailstorm in battle as soon as a Pokemon with Snow Warning enters the battle. The hailstorm lasts 5 turns.</effect>
+	</ability>
+	<ability id="118">
+		<name>Honey Gather</name>
+		<effectText>The Pokemon may gather Honey from somewhere.</effectText>
+		<effect>Honey Gather has no effect during battle.</effect>
+	</ability>
+	<ability id="119">
+		<name>Frisk</name>
+		<effectText>The Pokemon can check the foe's held item.</effectText>
+		<effect>Frisk now identifies the held items of all opposing Pokemon, regardless of position.</effect>
+	</ability>
+	<ability id="120">
+		<name>Reckless</name>
+		<effectText>Powers up moves that have recoil damage.</effectText>
+		<effect>Reckless increases the base power of moves which cause recoil or crash damage by 20%.</effect>
+	</ability>
+	<ability id="121">
+		<name>Multitype</name>
+		<effectText>Changes type to match the held Plate.</effectText>
+		<effect>Multitype changes the type of the Pokemon with this Ability depending on the Plate attached.</effect>
+	</ability>
+	<ability id="122">
+		<name>Flower Gift</name>
+		<effectText>Powers up party Pokemon when it is sunny.</effectText>
+		<effect>Flower Gift raises all party Pokemon's Attack and Special Defense stats by 50% in sunshine.</effect>
+	</ability>
+	<ability id="123">
+		<name>Bad Dreams</name>
+		<effectText>Reduces a sleeping foe's HP.</effectText>
+		<effect>Bad Dreams causes sleeping opponents to lose 1/8th of their maximum HP each turn.</effect>
+	</ability>
+	<ability id="124">
+		<name>Pickpocket</name>
+		<effectText>Steals attacking Pokemon's held item on contact.</effectText>
+		<effect>Whenever an opponent makes contact with the user of Pickpocket, it steals the opponent's held item.</effect>
+	</ability>
+	<ability id="125">
+		<name>Sheer Force</name>
+		<effectText>Strengthens moves with extra effects to 1.3x their power, but prevents their extra effects.</effectText>
+		<effect>Sheer Force raises the base power of all attacking moves that have an additional effect by 30%, but the additional effects are ignored.</effect>
+	</ability>
+	<ability id="126">
+		<name>Contrary</name>
+		<effectText>Inverts stat modifiers.</effectText>
+		<effect>This Ability causes all effects that would lower a stat to increase it instead, and all effects that would increase a stat to decrease it instead.</effect>
+	</ability>
+	<ability id="127">
+		<name>Unnerve</name>
+		<effectText>Prevents opposing Pokemon from eating held Berries.</effectText>
+		<effect>Unnerve causes the opponent to be unable to eat its own held Berry.</effect>
+	</ability>
+	<ability id="128">
+		<name>Defiant</name>
+		<effectText>Raises Attack two stages upon having any stat lowered.</effectText>
+		<effect>Defiant raises the user's Attack stat by two stages for each stat lowered by an opponent, including the Attack stat, even if reduced by Abilities.</effect>
+	</ability>
+	<ability id="129">
+		<name>Defeatist</name>
+		<effectText>Halves Attack and Special Attack below 50% HP.</effectText>
+		<effect>Defeatist halves the user's Attack and Special Attack stat when its HP is at or less than half of its maximum.</effect>
+	</ability>
+	<ability id="130">
+		<name>Cursed Body</name>
+		<effectText>Has a 30% chance of Disabling any move that hits the Pokemon.</effectText>
+		<effect>Cursed Body has a 30% chance of disabling the opponent's used offensive move when attacked for 3 turns.</effect>
+	</ability>
+	<ability id="131">
+		<name>Healer</name>
+		<effectText>Has a 30% chance of curing each adjacent ally of any major status ailment after each turn.</effectText>
+		<effect>Healer has a 30% chance of curing an adjacent ally's status condition at the end of each turn.</effect>
+	</ability>
+	<ability id="132">
+		<name>Friend Guard</name>
+		<effectText>Decreases damage inflicted against ally Pokemon.</effectText>
+		<effect>Friend Guard reduces the damage done to an ally by 25%.</effect>
+	</ability>
+	<ability id="133">
+		<name>Weak Armor</name>
+		<effectText>Raises Speed and lowers Defense by one stage each upon being hit by any move.</effectText>
+		<effect>Weak Armor causes the user's Defense to decrease by one stage and its Speed to increase by one stage each when struck by physical moves. It activates for each hit of multi-strike moves.</effect>
+	</ability>
+	<ability id="134">
+		<name>Heavy Metal</name>
+		<effectText>Doubles the Pokemon's weight.</effectText>
+		<effect>Doubles the Pokemon's weight.</effect>
+	</ability>
+	<ability id="135">
+		<name>Light Metal</name>
+		<effectText>Halves the Pokemon's weight.</effectText>
+		<effect>Halves the Pokemon's weight.</effect>
+	</ability>
+	<ability id="136">
+		<name>Multiscale</name>
+		<effectText>Halves damage taken from full HP.</effectText>
+		<effect>Multiscale lowers damage taken from damage-dealing moves by half when at maximum HP.</effect>
+	</ability>
+	<ability id="137">
+		<name>Toxic Boost</name>
+		<effectText>Increases Attack to 1.5x when poisoned.</effectText>
+		<effect>When the user is poisoned, its Attack stat is raised by 50%.</effect>
+	</ability>
+	<ability id="138">
+		<name>Flare Boost</name>
+		<effectText>Increases Special Attack to 1.5x when burned.</effectText>
+		<effect>When a Pokemon with this Ability is burned, its Special Attack is raised by 50%.</effect>
+	</ability>
+	<ability id="139">
+		<name>Harvest</name>
+		<effectText>Restores any held Berry after the turn on which it is used.</effectText>
+		<effect>If the Pokemon has used a Berry, there is a 50% chance of it being restored at the end of each turn. Harvest will always activate in intense sunlight.</effect>
+	</ability>
+	<ability id="140">
+		<name>Telepathy</name>
+		<effectText>Protects against damaging moves from friendly Pokemon.</effectText>
+		<effect>A Pokemon with Telepathy avoids all damaging moves used by its allies.</effect>
+	</ability>
+	<ability id="141">
+		<name>Moody</name>
+		<effectText>Raises a random stat two stages and lowers another one stage after each turn.</effectText>
+		<effect>At the end of each turn, Moody causes one of the Pokemon's stats to raise by two stages, while another stat is lowered by one stage.</effect>
+	</ability>
+	<ability id="142">
+		<name>Overcoat</name>
+		<effectText>Protects against damage from weather.</effectText>
+		<effect>In battle, a Pokemon with Overcoat does not take damage from the weather conditions sandstorm and hailstorm.</effect>
+	</ability>
+	<ability id="143">
+		<name>Poison Touch</name>
+		<effectText>Has a 30% chance of poisoning Pokemon upon contact when attacking.</effectText>
+		<effect>If a Pokemon with this Ability uses a move that makes contact, there is a 30% chance the target will be poisoned.</effect>
+	</ability>
+	<ability id="144">
+		<name>Regenerator</name>
+		<effectText>Heals for 1/3 max HP upon leaving battle.</effectText>
+		<effect>Regenerator causes the user to restore HP by ? of its maximum HP when switching out.</effect>
+	</ability>
+	<ability id="145">
+		<name>Big Pecks</name>
+		<effectText>Protects the Pokemon from Defense-lowering attacks.</effectText>
+		<effect>Big Pecks prevents the Defense stat from being reduced.</effect>
+	</ability>
+	<ability id="146">
+		<name>Sand Rush</name>
+		<effectText>Doubles Speed during a sandstorm.</effectText>
+		<effect>Sand Rush doubles Speed in a Sandstorm and makes the Pokemon immune to Sandstorm damage.</effect>
+	</ability>
+	<ability id="147">
+		<name>Wonder Skin</name>
+		<effectText>Has a 50% chance of protecting against non-damaging moves that inflict major status ailments.</effectText>
+		<effect>Wonder Skin reduces the accuracy of an opponent's status move to 50%.</effect>
+	</ability>
+	<ability id="148">
+		<name>Analytic</name>
+		<effectText>Strengthens moves when moving last.</effectText>
+		<effect>If the user targets a Pokemon that has already acted this turn, the power of the user's move is increased by 30%.</effect>
+	</ability>
+	<ability id="149">
+		<name>Illusion</name>
+		<effectText>Takes the appearance of the last conscious party Pokemon upon being sent out until hit by a damaging move.</effectText>
+		<effect>Illusion will change the appearance of the Pokemon to that of the last Pokemon in the player's party.</effect>
+	</ability>
+	<ability id="150">
+		<name>Imposter</name>
+		<effectText>Transforms upon entering battle.</effectText>
+		<effect>As soon as the user comes into battle, it transforms into its opponent.</effect>
+	</ability>
+	<ability id="151">
+		<name>Infiltrator</name>
+		<effectText>Ignores Light Screen, Reflect, and Safeguard.</effectText>
+		<effect>Infiltrator ignores Reflect, Light Screen, Safeguard, and Mist under effect on the target.</effect>
+	</ability>
+	<ability id="152">
+		<name>Mummy</name>
+		<effectText>Contact with this Pokemon spreads this Ability.</effectText>
+		<effect>When the user is hit by a contact move, the attacking Pokemon's Ability is turned into Mummy, overwriting the Pokemon's previous Ability.</effect>
+	</ability>
+	<ability id="153">
+		<name>Moxie</name>
+		<effectText>Raises Attack one stage upon KOing a Pokemon.</effectText>
+		<effect>When a Pokemon with Moxie causes another Pokemon (including allies) to faint through direct damage, its Attack rises by one stage.</effect>
+	</ability>
+	<ability id="154">
+		<name>Justified</name>
+		<effectText>Raises Attack when hit by dark-type moves.</effectText>
+		<effect>Justified will raise the user's Attack stat by one stage when hit by a Dark-type attack.</effect>
+	</ability>
+	<ability id="155">
+		<name>Rattled</name>
+		<effectText>Raises Speed one stage upon being hit by a Dark, Ghost, or Bug move.</effectText>
+		<effect>Rattled raises the user's Speed stat one stage when hit by a Bug-, Dark-, or Ghost-type move.</effect>
+	</ability>
+	<ability id="156">
+		<name>Magic Bounce</name>
+		<effectText>Reflects most non-damaging moves back at their user.</effectText>
+		<effect>Reflects the effect of all stat lowering status moves (excluding Memento), non-damaging Status condition inducing moves, entry hazard moves, moves like Taunt and Torment, and so on back to the user.</effect>
+	</ability>
+	<ability id="157">
+		<name>Sap Sipper</name>
+		<effectText>Absorbs Grass moves, raising Attack one stage.</effectText>
+		<effect>When a Pokemon with Sap Sipper is hit with a Grass-type attack, its Attack is increased by one level, and the move itself has no effect.</effect>
+	</ability>
+	<ability id="158">
+		<name>Prankster</name>
+		<effectText>Raises non-damaging moves' priority by one stage.</effectText>
+		<effect>Prankster increases the priority of status moves by one.</effect>
+	</ability>
+	<ability id="159">
+		<name>Sand Force</name>
+		<effectText>Strengthens Rock, Ground, and Steel moves to 1.3x their power during a sandstorm.</effectText>
+		<effect>Sand Force raises the power of Rock-, Ground-, and Steel-type moves by 30% while a Sandstorm is in effect. It also gives the user immunity to damage from Sandstorm.</effect>
+	</ability>
+	<ability id="160">
+		<name>Iron Barbs</name>
+		<effectText>Damages attacking Pokemon for 1/8 their max HP on contact.</effectText>
+		<effect>When a Pokemon with Iron Barbs is hit with a move that makes contact, the attacker loses 1/8 of its own maximum HP, after all turn-based damage is dealt.</effect>
+	</ability>
+	<ability id="161">
+		<name>Zen Mode</name>
+		<effectText>Changes the Pokemon's shape when HP is halved.</effectText>
+		<effect>When Darmanitan's HP drops to below half, it will change into its Zen Mode at the end of the turn, which is a dual-type Fire/Psychic form. If it loses its Ability, or recovers HP to above half while in its Zen Mode, it will change back to its Standard Mode.</effect>
+	</ability>
+	<ability id="162">
+		<name>Victory Star</name>
+		<effectText>Raises moves' accuracy to 1.1x for friendly Pokemon.</effectText>
+		<effect>Victory Star increases the accuracy of moves used both by the user and its partners by 10% of their original accuracy.</effect>
+	</ability>
+	<ability id="163">
+		<name>Turboblaze</name>
+		<effectText>Moves can be used regardless of Abilities.</effectText>
+		<effect>Turboblaze negates the effects of Abilities that weaken or negate moves or the side-effects of moves.</effect>
+	</ability>
+	<ability id="164">
+		<name>Teravolt</name>
+		<effectText>Moves can be used regardless of Abilities.</effectText>
+		<effect>Teravolt negates the effects of Abilities that weaken or negate moves or the side-effects of moves.</effect>
+	</ability>
+	<ability id="165">
+		<name>Aroma Veil</name>
+		<effectText>Protects allies from attacks that limit their move choices.</effectText>
+		<effect>Aroma Veil protects the Pokemon with this Ability and its allies from the effects of Taunt, Torment, Encore, Disable, Heal Block and Attract.</effect>
+	</ability>
+	<ability id="166">
+		<name>Flower Veil</name>
+		<effectText>Prevents lowering of ally Grass-type Pokemon's stats.</effectText>
+		<effect>Flower Veil prevents non-volatile status problems and the lowering of the stats of all Grass-type Pokemon on the user's side of the field.</effect>
+	</ability>
+	<ability id="167">
+		<name>Cheek Pouch</name>
+		<effectText>Restores HP as well when the Pokemon eats a Berry.</effectText>
+		<effect>Cheek Pouch causes a Pokemon to regain some HP when it consumes a Berry, on top of the effect the Berry will have when eaten.</effect>
+	</ability>
+	<ability id="168">
+		<name>Protean</name>
+		<effectText>Changes the Pokemon's type to the same type of the move it is using.</effectText>
+		<effect>Immediately before using any move, a Pokemon with Protean as its Ability will change its type to be the same as the move it is using.</effect>
+	</ability>
+	<ability id="169">
+		<name>Fur Coat</name>
+		<effectText>Halves damage from physical moves.</effectText>
+		<effect>Fur Coat halves damage from physical moves, Psyshock, Psystrike, and Secret Sword.</effect>
+	</ability>
+	<ability id="170">
+		<name>Magician</name>
+		<effectText>The Pokemon steals the held item of a Pokemon it hits with a move.</effectText>
+		<effect>When a Pokemon with Magician hits another Pokemon with a move, it will steal the held item of the Pokemon that it hit.</effect>
+	</ability>
+	<ability id="171">
+		<name>Bulletproof</name>
+		<effectText>Protects the Pokemon from some ball and bomb moves.</effectText>
+		<effect>Pokemon with Bulletproof are immune to ball and bomb moves, as well as some cannon-based attacks.</effect>
+	</ability>
+	<ability id="172">
+		<name>Competitive</name>
+		<effectText>Boosts the Sp.Atk stat when a stat is lowered.</effectText>
+		<effect>Competitive raises the user's Special Attack stat by two stages for each stat lowered by an opponent, including the Special Attack stat itself.</effect>
+	</ability>
+	<ability id="173">
+		<name>Strong Jaw</name>
+		<effectText>The Pokemon's strong jaw gives it tremendous biting power.</effectText>
+		<effect>Strong Jaw increases the power of biting moves by 50%.</effect>
+	</ability>
+	<ability id="174">
+		<name>Refrigerate</name>
+		<effectText>Normal-type moves become Ice-type moves.</effectText>
+		<effect>Refrigerate causes all Normal-type moves used by the Pokemon to become Ice-type and receive a 30% boost in power.</effect>
+	</ability>
+	<ability id="175">
+		<name>Sweet Veil</name>
+		<effectText>Prevents itself and its allies from falling asleep.</effectText>
+		<effect>Sweet Veil prevents the user and its allies from falling asleep.</effect>
+	</ability>
+	<ability id="176">
+		<name>Stance Change</name>
+		<effectText>The Pokemon changes form depending on how it battles.</effectText>
+		<effect>Stance Change allows Aegislash to switch between Shield Forme and Blade Forme.</effect>
+	</ability>
+	<ability id="177">
+		<name>Gale Wings</name>
+		<effectText>Gives priority to Flying-type moves.</effectText>
+		<effect>Gale Wings increases the priority of Flying-type moves by one.</effect>
+	</ability>
+	<ability id="178">
+		<name>Mega Launcher</name>
+		<effectText>Powers up aura and pulse moves.</effectText>
+		<effect>Mega Launcher boosts the power of aura and pulse moves by 50%.</effect>
+	</ability>
+	<ability id="179">
+		<name>Grass Pelt</name>
+		<effectText>Boosts the Defense stat in Grassy Terrain.</effectText>
+		<effect>Grass Pelt raises the user's Defense stat when Grassy Terrain is active in battle.</effect>
+	</ability>
+	<ability id="180">
+		<name>Symbiosis</name>
+		<effectText>The Pokemon can pass an item to an ally.</effectText>
+		<effect>Symbiosis passes along the user's item to its partner immediately after the partner's item is consumed.</effect>
+	</ability>
+	<ability id="181">
+		<name>Tough Claws</name>
+		<effectText>Powers up moves that make direct contact.</effectText>
+		<effect>Tough Claws boosts the power of contact moves by 33%.</effect>
+	</ability>
+	<ability id="182">
+		<name>Pixilate</name>
+		<effectText>Normal-type moves become Fairy-type moves.</effectText>
+		<effect>Pixilate causes all Normal-type moves used by the Pokemon to become Fairy-type and receive a 30% boost in addition to all other modifiers.</effect>
+	</ability>
+	<ability id="183">
+		<name>Gooey</name>
+		<effectText>Contact with the Pokemon lowers the attacker's Speed stat.</effectText>
+		<effect>Gooey causes the attacker's Speed stat to decrease by one stage when the user is attacked by contact moves.</effect>
+	</ability>
+	<ability id="184">
+		<name>Aerilate</name>
+		<effectText>Normal-type moves become Flying-type moves.</effectText>
+		<effect>Aerilate causes all Normal-type moves used by the Pokemon to become Flying-type and receive a 30% boost.</effect>
+	</ability>
+	<ability id="185">
+		<name>Parental Bond</name>
+		<effectText>Parent and child attack together.</effectText>
+		<effect>Parental Bond causes most damaging moves used by the Pokemon to become two-strike moves, with the second attack being half as strong as the first.</effect>
+	</ability>
+	<ability id="186">
+		<name>Dark Aura</name>
+		<effectText>Powers up each Pokemon's Dark-type moves.</effectText>
+		<effect>Dark Aura increases the damage dealt by Dark-type attacks by 33.3% for all Pokemon on the field.</effect>
+	</ability>
+	<ability id="187">
+		<name>Fairy Aura</name>
+		<effectText>Powers up each Pokemon's Fairy-type moves.</effectText>
+		<effect>Fairy Aura increases the damage dealt by Fairy-type attacks by 33.3% for all Pokemon on the field.</effect>
+	</ability>
+	<ability id="188">
+		<name>Aura Break</name>
+		<effectText>The effects of</effectText>
+		<effect>Aura Break reverses the effects of Fairy Aura and Dark Aura. Instead of increasing the power of Fairy and Dark Moves by 33%, Fairy Aura and Dark Aura will instead decrease the power of Fairy and Dark moves, respectively, by 33% as long as the Pokemon with Aura Break remains on the field.</effect>
+	</ability>
+</document>
